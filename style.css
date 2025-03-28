@@ -162,6 +162,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
+    transition: opacity 3s;
 }
 
 .slideshow div.change{
