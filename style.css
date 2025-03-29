@@ -835,3 +835,21 @@ html {
     right: 25%;
   }
 }
+
+@media (max-width: 900px) {
+  .section-3-content {
+    width: 90%;
+  }
+
+  .loading-wrapper {
+    width: 70%;
+  }
+
+  .loading i {
+    font-size: 6rem;
+  }
+
+  .section-5-heading {
+    font-size: 12rem;
+  }
+}
