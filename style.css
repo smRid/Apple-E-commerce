@@ -498,10 +498,10 @@ html {
     transform: rotateX(0);
     transition: transform 3s;
   }
-  /* End of Section 3 Images */
+/* End of Section 3 Images */
   
-  /* Section 3 Loading */
-  .loading-wrapper {
+/* Section 3 Loading */
+.loading-wrapper {
     position: absolute;
     top: 6%;
     width: 60%;
@@ -513,14 +513,14 @@ html {
       url(images/MacBook/macbook-1-desktop.png) center no-repeat;
     z-index: -1;
     opacity: 0;
-  }
+}
   
-  .change .loading-wrapper {
+.change .loading-wrapper {
     opacity: 1;
     transition: opacity 1s 2s;
-  }
+}
   
-  .loading {
+.loading {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -528,28 +528,28 @@ html {
     left: 0;
     background-color: var(--black-color);
     flex-direction: column;
-  }
+}
   
-  .change .loading {
+.change .loading {
     opacity: 0;
     transition: 1s 5s;
-  }
+}
   
-  .loading i {
+.loading i {
     font-size: 10rem;
     color: var(--white-color);
     margin-bottom: 2rem;
-  }
+}
   
-  .progress-bar {
+.progress-bar {
     width: 22rem;
     height: 0.3rem;
     background-color: #888;
     border-radius: 5rem;
     position: relative;
-  }
+}
   
-  .progress-bar::after {
+.progress-bar::after {
     content: "";
     position: absolute;
     top: 0;
@@ -557,40 +557,40 @@ html {
     width: 0;
     height: 100%;
     background-color: var(--white-color);
-  }
+}
   
-  .change .progress-bar::after {
+.change .progress-bar::after {
     width: 100%;
     transition: width 1s 3s;
-  }
-  /* End of Section 3 Loading */
+}
+/* End of Section 3 Loading */
   
-  /* Section 3 Info */
-  .macbook-info {
+/* Section 3 Info */
+.macbook-info {
     position: absolute;
     width: 70rem;
     text-align: center;
     opacity: 0;
-  }
+}
   
-  .change .macbook-info {
+.change .macbook-info {
     opacity: 1;
     transition: opacity 1s 6s;
-  }
+}
   
-  .macbook-info-heading {
+.macbook-info-heading {
     font-size: 6rem;
     font-weight: 400;
     color: var(--primary-color);
-  }
+}
   
-  .macbook-price {
+.macbook-price {
     font-size: 2.5rem;
     font-weight: 200;
     margin: 3rem 0;
-  }
+}
   
-  .macbook-btn {
+.macbook-btn {
     width: 25rem;
     height: 5rem;
     background-image: linear-gradient(#ddd, #fff);
@@ -602,7 +602,7 @@ html {
     letter-spacing: 0.2rem;
     color: var(--primary-color);
     cursor: pointer;
-  }
+}
   /* End of Section 3 Info */
   /* End of Section 3 Content */
   /*End of Section 3 */
