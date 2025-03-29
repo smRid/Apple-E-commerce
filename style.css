@@ -853,3 +853,83 @@ html {
     font-size: 12rem;
   }
 }
+
+
+@media (max-width: 700px) {
+  .logo {
+    top: 0;
+    left: 2rem;
+  }
+
+  .logo i {
+    font-size: 8rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .cube-wrapper {
+    opacity: 0.7;
+  }
+
+  .cube {
+    top: 3rem;
+  }
+
+  .section-1-banner {
+    position: absolute;
+  }
+
+  .section-1-banner h1 {
+    position: relative;
+    left: -5rem;
+  }
+
+  .section-1-banner h1::first-letter {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .section-1-banner button:hover {
+    clip-path: polygon(
+      50% 0%,
+      81% 5%,
+      100% 0,
+      100% 100%,
+      80% 95%,
+      50% 100%,
+      20% 95%,
+      0 100%,
+      0 0,
+      23% 5%
+    );
+  }
+
+  .iphones {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  .watch-btn {
+    right: 15%;
+  }
+
+  .airpods-img-1 {
+    display: none;
+  }
+
+  .airpods .airpods-img-2 {
+    width: 100%;
+  }
+
+  .airpods-btn {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    box-shadow: 0.1rem 0.1rem 0.1rem #ddd;
+  }
+
+  .icon-link {
+    margin: 0 2rem;
+  }
+}
