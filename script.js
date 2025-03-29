@@ -101,6 +101,7 @@ const slideshow = () => {
 
 slideshow()
 // End of Slideshow
+
 // End of section 1
 
 
@@ -112,9 +113,13 @@ window.addEventListener('scroll', () => {
         section3Content.classList.add('change')
     }
 })
+
 // End of Section 3
 
+
+
 // Section 4
+
 const watchBands = document.querySelector('.watch-bands')
 const watchCases = document.querySelector('.watch-cases')
 
@@ -171,4 +176,6 @@ watchLeftControl.addEventListener('click', () => {
     watchBands.style.marginRight = `${axisX -= 70}rem`
     hideControl()
 })
+
+
 // End of Section 4
