@@ -355,18 +355,18 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-  }
+}
   
-  /* Section 2 Heading */
-  .section-2-heading {
+/* Section 2 Heading */
+.section-2-heading {
     font-size: 10rem;
     font-weight: 200;
     color: var(--black-color);
     position: relative;
     margin-bottom: 5rem;
-  }
+}
   
-  .section-2-heading::before {
+.section-2-heading::before {
     content: "";
     width: 130%;
     height: 30vw;
@@ -378,44 +378,44 @@ html {
     transform-origin: left top;
     z-index: -1;
     border-radius: 1rem;
-  }
-  /* End of Section 2 Heading */
+}
+/* End of Section 2 Heading */
   
-  /* Section 2 Images */
-  .iphones {
+/* Section 2 Images */
+.iphones {
     height: 60vh;
     width: 50vw;
     background-image: linear-gradient(var(--primary-color), var(--white-color));
     border-radius: 0.5rem;
-  }
+}
   
-  .iphones img {
+.iphones img {
     width: inherit;
     height: inherit;
     object-fit: contain;
     position: absolute;
     transition: opacity 3s;
-  }
+}
   
-  .iphone-img-2 {
+.iphone-img-2 {
     opacity: 0;
-  }
+}
   
-  .iphones:hover .iphone-img-1 {
+.iphones:hover .iphone-img-1 {
     opacity: 0;
-  }
+}
   
-  .iphones:hover .iphone-img-2 {
+.iphones:hover .iphone-img-2 {
     opacity: 1;
-  }
-  /* End of Section 2 Images */
+}
+/* End of Section 2 Images */
   
-  /* Section 2 Buttons */
-  .iphone-btns {
+/* Section 2 Buttons */
+.iphone-btns {
     display: flex;
-  }
+}
   
-  .iphone-btn {
+.iphone-btn {
     width: 6rem;
     height: 6rem;
     background-image: linear-gradient(
@@ -426,7 +426,7 @@ html {
     margin: 0 3rem;
     border-radius: 50%;
     position: relative;
-  }
+}
   
 .iphone-btn::after {
     content: "";
