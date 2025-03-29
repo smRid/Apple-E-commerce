@@ -105,3 +105,18 @@ window.addEventListener('scroll', () => {
     }
 })
 // End of Section 3
+
+// Section 4
+const watchBands = document.querySelector('.watch-bands')
+const watchCases = document.querySelector('.watch-cases')
+
+const watchTopControl = document.querySelector('.watch-top-control')
+const watchRightControl = document.querySelector('.watch-right-control')
+const watchBottomControl = document.querySelector('.watch-bottom-control')
+const watchLeftControl = document.querySelector('.watch-left-control')
+
+let axisY = 0
+let axisX = 0
+
+
+// End of Section 4
