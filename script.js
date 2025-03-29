@@ -118,5 +118,31 @@ const watchLeftControl = document.querySelector('.watch-left-control')
 let axisY = 0
 let axisX = 0
 
+const hideControl = () => {
+    if(axisY === -280) {
+        watchTopControl.classList.add('hideControl')
+    } else {
+        watchTopControl.classList.remove('hideControl')
+    }
+
+    if(axisY === 280) {
+        watchBottomControl.classList.add('hideControl')
+    } else {
+        watchBottomControl.classList.remove('hideControl')
+    }
+
+    if(axisX === 280) {
+        watchRightControl.classList.add('hideControl')
+    } else {
+        watchRightControl.classList.remove('hideControl')
+    }
+
+    if(axisX === -280) {
+        watchLeftControl.classList.add('hideControl')
+    } else {
+        watchLeftControl.classList.remove('hideControl')
+    }
+}
+
 
 // End of Section 4
