@@ -933,3 +933,37 @@ html {
     margin: 0 2rem;
   }
 }
+
+
+@media (max-width: 550px) {
+  .navbar-link {
+    margin: 0 1.5rem;
+  }
+
+  .section-2-heading {
+    font-size: 8rem;
+  }
+
+  .section-3-heading {
+    font-size: 8rem;
+  }
+
+  .macbook-info-heading {
+    font-size: 5rem;
+  }
+
+  .macbook-btn {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .airpods-buttons {
+    width: 50rem;
+    text-align: center;
+  }
+
+  .icon-link img {
+    width: 8rem;
+  }
+}
