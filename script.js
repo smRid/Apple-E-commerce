@@ -144,5 +144,23 @@ const hideControl = () => {
     }
 }
 
+watchTopControl.addEventListener('click', () => {
+    watchCases.style.marginTop = `${axisY -= 70}rem`
+    hideControl()
+})
 
+watchBottomControl.addEventListener('click', () => {
+    watchCases.style.marginTop = `${axisY += 70}rem`
+    hideControl()
+})
+
+watchRightControl.addEventListener('click', () => {
+    watchBands.style.marginRight = `${axisX += 70}rem`
+    hideControl()
+})
+
+watchLeftControl.addEventListener('click', () => {
+    watchBands.style.marginRight = `${axisX -= 70}rem`
+    hideControl()
+})
 // End of Section 4
